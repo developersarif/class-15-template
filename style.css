@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixwidth{
+    width: 1400px;
+    margin: auto;
+}
+/*header part*/
+.header{
+    background-color: #00BE99;
+}
+.headerleft{
+    float: left;
+    width: 56%;
+}
+.headerright{
+    float: right;
+    width: 44%;
+}
+.tag{
+    color: white;
+    line-height: 69px;
+    padding-left: 38px;
+}
+.headerright ul{}
+.headerright ul li{
+    display: inline-block;
+}
+.headerright ul li a {
+	display: block;
+	text-align: right;
+	text-decoration: none;
+	padding: 10px 14px;
+	color: white;
+	line-height: 69px;
+}
+.headerright ul li a:hover{
+}
+/*banner*/
+.banner{
+    background-image: url(./img/header-bg01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    position: relative;
+    text-align: center;
+}
+.banner a{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.cool{
+   color: white;
+   font-size: 54px;
+}
+.para{
+    color: white;
+}
+
+/*our service and lorem*/
+.our{
+    margin-top: 65px;
+}
+.main{
+    margin-top: 20px;
+}
+.sit{}
+/*service*/
+.service{
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 80px;
+    padding-bottom: 82px;
+    
+}
+.serviceitem{
+    float: left;
+    width: 20%;
+    margin-right: 34px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.serviceitem2{
+    float: left;
+    width: 20%;
+    margin-right: 34px;
+    font-family: 'Open Sans', sans-serif;
+}
+.serviceitem3{
+    float: left;
+    width: 20%;
+    margin-right: 34px;
+    font-family: 'Open Sans', sans-serif;
+}
+.serviceitem4{
+    float: left;
+    width: 20%;
+    margin-right: 34px;
+    font-family: 'Open Sans', sans-serif;
+}
+.web{}
+.design{
+    width: 254px;
+}
+.upwork {
+	font-size: 25px;
+	color: #00BE99;
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin: auto;
+}
+.batch{
+    font-size: 25px;
+	color: #00BE99;
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin: auto;
+}
+.develop{
+    font-size: 25px;
+	color: #00BE99;
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin: auto;
+}
+.freelance{
+    font-size: 25px;
+	color: #00BE99;
+    display: block;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    margin: auto;
+}
+.about{
+    margin-top: 65px;
+}
+.were{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+/*container*/
+.container{}
+.containerleft{
+    float: left;
+    width: 35%;
+}
+.containerright{
+    float: right;
+    width: 60%;
+}
+.containerleft img{
+    height: 319px;
+    width: auto;
+    margin-left: 30px;
+}
+.who{
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.we{
+    margin-bottom: 10px;
+    width: 684px;
+}
+.what{
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.lfwf{
+    margin-bottom: 10px;
+    width: 684px;
+}
+.learn{
+    margin-bottom: 7px;
+    font-size: 20px;
+}
+.with{
+    margin-bottom: 10px;
+    width: 684px;
+}
+
+.full{}
+.walton{
+    margin-top: 63px;
+}
+.airtel{
+    text-align: center;
+    margin-top: 17px;
+}
+.huawei{}
+/*footer*/
+.footer {
+	margin-left: 189px;
+	margin-top: 25px;
+    text-align: center;
+}
+.footerleft {
+	float: left;
+	width: 30%;
+	margin-bottom: 75px;
+    margin-top: 30px;
+}
+.footerleft span{
+    color: #00BE99;
+    margin-bottom: 10px;
+}
+/*footer bottom*/
+.lastmenu{
+    background-color: #00BE99;
+    padding: 16px 0;
+}
+.lastmenu ul{
+    text-align: center;
+}
+.lastmenu ul li{
+    display: inline-block;
+}
+.lastmenu ul li a {
+	display: inline-block;
+	padding: 0px 0px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: white;
+	line-height: 50px;
+	font-size: 37px;
+    color:  #00BE99;
+    margin-left: 10px;
+}
+/*copyright*/
+.copyright{
+    background-color: #000;
+    padding: 16px 0;
+}
+
+.commando p{
+    color: #fff;
+	text-align: center;
+	font-size: 15px;
+	word-spacing: 5px;
+}
